@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forgot</title>
+</head>
+
+<body>
+    <center>
+        <h1>Forgot page</h1>
+    </center>
+    <form action="forgot.html" method="get">
+        <label for="user">username:</label>
+        <input type="text" name="user" id="user" required> </br>
+        <label for="password">password:</label>
+        <input type="text" name="password" id="password" required pattern="[A-Za-z]+@\d+" minlength="8" maxlength="16">
+        </br>
+        <label for="otp">enter otp:</label>
+        <input type="text" name="otp" id="otp" required pattern="[\d]+" minlength="4" maxlength="6"
+            title="enter only numbers"> </br>
+        <a href="passreset.html">newpassword</a>
+
+
+    </form>
+</body>
+
+</html>
